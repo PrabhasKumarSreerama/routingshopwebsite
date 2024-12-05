@@ -1,0 +1,19 @@
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.error {
+    color: rgb(162, 37, 37);
+    height: calc(87.9vh);
+    align-content: center;
+    font-size: 40px;
+}
+
+.loading {
+    height: calc(87.9vh);
+    align-content: center;
+}
