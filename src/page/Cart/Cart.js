@@ -22,7 +22,7 @@ const Cart = ({ cart, removeFromCart }) => {
         </Link>
       </nav>
       {state.items.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p className="emt">Your cart is empty.</p>
       ) : (
         <div>
           <ul className="cart-items">
